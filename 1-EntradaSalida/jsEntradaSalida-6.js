@@ -4,18 +4,16 @@ Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
     var uno;
-    var dos;   
+    var dos;
     var suma;
 
-    uno = document.getElementById ("numeroUno").value;
-    dos = document.getElementById ("numeroDos").value;
+    	uno = document.getElementById ("numeroUno").value;
+    	dos = document.getElementById ("numeroDos").value;
 
-    uno = parseInt (uno);   
-    dos = parseInt (dos);   
+    		uno = parseInt (uno);
+    		dos = parseInt (dos);
 
-    suma = (uno + dos);
+    	suma = (uno + dos);
     
     alert(suma);
-
 }
-

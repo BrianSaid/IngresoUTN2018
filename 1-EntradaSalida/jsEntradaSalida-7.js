@@ -54,8 +54,8 @@ function multiplicar()
 }
 
 function dividir()
-{
-	{ 
+	
+{ 
 	var siete;
 	var ocho;
 	var divi;

@@ -5,20 +5,17 @@ var años
 
         años = document.getElementById("edad").value;
 
-if (edad >13)
+if (años <13)
 {
-    alert("Usted es niño");
+    alert("Usted es un niño");
 }
-else if (edad <18)
+else if (años >17)
 {
-    alert("Usted es adolecente");
+    alert("Usted es mayor");
 }
-else 
+else
 {
-    alert("Usted es adulto");
+    alert("Usted es adolecente")
 }
-
-
-
 
 }//FIN DE LA FUNCIÓN

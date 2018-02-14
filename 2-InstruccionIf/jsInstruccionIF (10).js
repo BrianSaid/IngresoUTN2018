@@ -2,10 +2,21 @@ function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
 	
-	var numeroAleatorio;
+	var nota;
 
-	numeroAleatorio = Math.floor (Math.random() * 10) + 1;
+	nota = Math.floor (Math.random() * 10) + 1;
 
-	alert(numeroAleatorio)
+if (nota <4)
+{
+    alert(nota + " Desaprobo");
+}
+else if (nota <9)
+{
+    alert(nota + " Aprobo");
+}
+else
+{
+    alert(nota + " Excelente")
+}
 
 }//FIN DE LA FUNCIÓN n  

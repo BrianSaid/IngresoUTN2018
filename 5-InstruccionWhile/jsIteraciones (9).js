@@ -11,17 +11,21 @@ function Mostrar()
 	do
 {
 	numero = parseInt (prompt("Ingrese un numero: "));
-	if (numero > max)
+	if (numero > max || flag == 0)
 	{
 		max = numero
 	}
-	if 
+	if (numero < min || flag == 0)
 	{
 		min = numero
+		flag ++;
 	}
 	respuesta = prompt ("Desea continuar?:")
 }
 while (respuesta == 's')
+
+document.getelementbyid("maximo").value;
+document.getelementbyid("minimo").value;
 
 
 
